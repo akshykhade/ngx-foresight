@@ -27,7 +27,7 @@ jobs:
         run: pnpm install
 
       - name: Build Angular app
-        run: pnpm run build
+        run: pnpm run build -- --base-href /ngx-foresight/ --deploy-url /ngx-foresight/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
