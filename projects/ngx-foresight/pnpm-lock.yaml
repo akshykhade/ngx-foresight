@@ -1,0 +1,125 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@angular/common':
+        specifier: ^18.2.0
+        version: 18.2.13(@angular/core@18.2.13(rxjs@7.8.2)(zone.js@0.14.10))(rxjs@7.8.2)
+      '@angular/core':
+        specifier: ^18.2.0
+        version: 18.2.13(rxjs@7.8.2)(zone.js@0.14.10)
+      js.foresight:
+        specifier: ^3.0.1
+        version: 3.0.1
+      tslib:
+        specifier: ^2.3.0
+        version: 2.8.1
+    devDependencies:
+      js.foresight-devtools:
+        specifier: ^0.0.3
+        version: 0.0.3(js.foresight@3.0.1)
+
+packages:
+
+  '@angular/common@18.2.13':
+    resolution: {integrity: sha512-4ZqrNp1PoZo7VNvW+sbSc2CB2axP1sCH2wXl8B0wdjsj8JY1hF1OhuugwhpAHtGxqewed2kCXayE+ZJqSTV4jw==}
+    engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0}
+    peerDependencies:
+      '@angular/core': 18.2.13
+      rxjs: ^6.5.3 || ^7.4.0
+
+  '@angular/core@18.2.13':
+    resolution: {integrity: sha512-8mbWHMgO95OuFV1Ejy4oKmbe9NOJ3WazQf/f7wks8Bck7pcihd0IKhlPBNjFllbF5o+04EYSwFhEtvEgjMDClA==}
+    engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0}
+    peerDependencies:
+      rxjs: ^6.5.3 || ^7.4.0
+      zone.js: ~0.14.10
+
+  '@rollup/rollup-linux-x64-gnu@4.44.2':
+    resolution: {integrity: sha512-/bXb0bEsWMyEkIsUL2Yt5nFB5naLAwyOWMEviQfQY1x3l5WsLKgvZf66TM7UTfED6erckUVUJQ/jJ1FSpm3pRQ==}
+    cpu: [x64]
+    os: [linux]
+
+  '@thednp/position-observer@1.1.0':
+    resolution: {integrity: sha512-WgldP6Dltp2hJkSwp3+IVu05ClK/2IF33iftiQLb7UHcuO6eydjXiIUeOCClgCy3FDCGau2l/LRVg3oOO3Ytcg==}
+    engines: {node: '>=16', pnpm: '>=8.6.0'}
+
+  '@thednp/shorty@2.0.11':
+    resolution: {integrity: sha512-D+rLHt1l7c608yCuzXYJ75aDNWeMVbor+m1HO/XibhiWRbCpD8r6TUv3ayJI+feVfCnBNfrH+p6LSDn9l99uBA==}
+    engines: {node: '>=16', pnpm: '>=8.6.0'}
+
+  js.foresight-devtools@0.0.3:
+    resolution: {integrity: sha512-GABBOEQ3nkinSQGVNJhmErO3UcdkJ626rchWT8u70jABZBBC3NdFA/+UlR4aXIwtWoPYZRxj6VLjK6XvfYWnlQ==}
+    peerDependencies:
+      js.foresight: ^3.0.1
+
+  js.foresight@3.0.1:
+    resolution: {integrity: sha512-fAdMRbs3813X0SPG86K8QWHHZ31Pw4pF/ZEIVrOt1/URWFmCRt74OroZFRqUGp5Kg+IL3vJTJO0Tk+mBbbmD2Q==}
+
+  position-observer@1.0.0:
+    resolution: {integrity: sha512-tY4RlMfplsW6pE/k0cARrcN9CzgvIisKLHlUY4gW7QK/Vo3/RpO1BXwrLzEGyhYegSM+Kvi6S84ZUV1wv9TBQw==}
+
+  rxjs@7.8.2:
+    resolution: {integrity: sha512-dhKf903U/PQZY6boNNtAGdWbG85WAbjT/1xYoZIC7FAY0yWapOBQVsVrDl58W86//e1VpMNBtRV4MaXfdMySFA==}
+
+  tabbable@6.2.0:
+    resolution: {integrity: sha512-Cat63mxsVJlzYvN51JmVXIgNoUokrIaT2zLclCXjRd8boZ0004U4KCs/sToJ75C6sdlByWxpYnb5Boif1VSFew==}
+
+  tslib@2.8.1:
+    resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
+
+  zone.js@0.14.10:
+    resolution: {integrity: sha512-YGAhaO7J5ywOXW6InXNlLmfU194F8lVgu7bRntUF3TiG8Y3nBK0x1UJJuHUP/e8IyihkjCYqhCScpSwnlaSRkQ==}
+
+snapshots:
+
+  '@angular/common@18.2.13(@angular/core@18.2.13(rxjs@7.8.2)(zone.js@0.14.10))(rxjs@7.8.2)':
+    dependencies:
+      '@angular/core': 18.2.13(rxjs@7.8.2)(zone.js@0.14.10)
+      rxjs: 7.8.2
+      tslib: 2.8.1
+
+  '@angular/core@18.2.13(rxjs@7.8.2)(zone.js@0.14.10)':
+    dependencies:
+      rxjs: 7.8.2
+      tslib: 2.8.1
+      zone.js: 0.14.10
+
+  '@rollup/rollup-linux-x64-gnu@4.44.2':
+    optional: true
+
+  '@thednp/position-observer@1.1.0':
+    dependencies:
+      '@thednp/shorty': 2.0.11
+
+  '@thednp/shorty@2.0.11': {}
+
+  js.foresight-devtools@0.0.3(js.foresight@3.0.1):
+    dependencies:
+      '@thednp/position-observer': 1.1.0
+      js.foresight: 3.0.1
+
+  js.foresight@3.0.1:
+    dependencies:
+      position-observer: 1.0.0
+      tabbable: 6.2.0
+
+  position-observer@1.0.0:
+    optionalDependencies:
+      '@rollup/rollup-linux-x64-gnu': 4.44.2
+
+  rxjs@7.8.2:
+    dependencies:
+      tslib: 2.8.1
+
+  tabbable@6.2.0: {}
+
+  tslib@2.8.1: {}
+
+  zone.js@0.14.10: {}
