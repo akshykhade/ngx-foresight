@@ -26,6 +26,8 @@
 
 ## Usage
 
+![Screenshot](public/example.gif)
+
 ```bash
 npm install js.foresight js.foresight-devtools ngx-foresight
 # or
