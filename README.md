@@ -24,6 +24,8 @@
 
 [foresightjs](https://foresightjs.com/) implementation for Angular. It provides router preloading strategy which automatically downloads the lazy-loaded module based on foresightjs prediction of user intent from mouse and keyboard.
 
+[🚀 Demo](https://akshykhade.github.io/ngx-foresight/)
+
 ## Usage
 
 ![Screenshot](public/example.gif)
