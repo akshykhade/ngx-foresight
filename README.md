@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://foresightjs.com/img/logo.svg" width="305px">
+  <img src="https://akshykhade.github.io/ngx-foresight/logo.svg" width="305px">
 </p>
 
 <p align="center">
