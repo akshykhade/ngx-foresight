@@ -1,26 +1,26 @@
 <p align="center">
   <img src="https://akshykhade.github.io/ngx-foresight/logo.svg" width="305px">
 </p>
-
+<br/>
 <p align="center">
   <a href="https://www.npmjs.com/package/ngx-foresight">
-    <img src="https://img.shields.io/npm/v/ngx-foresight.svg" alt="npm version" />
+    <img src="https://img.shields.io/npm/v/ngx-foresight.svg?style=for-the-badge" alt="npm version" />
   </a>
   <a href="https://www.npmjs.com/package/ngx-foresight">
-    <img src="https://img.shields.io/npm/dm/ngx-foresight.svg" alt="npm downloads" />
+    <img src="https://img.shields.io/npm/dm/ngx-foresight.svg?style=for-the-badge" alt="npm downloads" />
   </a>
   <a href="https://www.npmjs.com/package/ngx-foresight">
-    <img src="https://img.shields.io/npm/last-update/ngx-foresight.svg" alt="last-update" />
+    <img src="https://img.shields.io/npm/last-update/ngx-foresight.svg?style=for-the-badge" alt="last-update" />
   </a>
   <a href="https://github.com/akshykhade/ngx-foresight/blob/main/LICENSE">
-    <img src="https://img.shields.io/npm/l/ngx-foresight.svg" alt="license" />
+    <img src="https://img.shields.io/npm/l/ngx-foresight.svg?style=for-the-badge" alt="license" />
   </a>
   <a href="https://bundlephobia.com/package/ngx-foresight">
-    <img src="https://img.shields.io/bundlephobia/minzip/ngx-foresight" alt="bundle size" />
+    <img src="https://img.shields.io/bundlephobia/minzip/ngx-foresight?style=for-the-badge" alt="bundle size" />
   </a>
 </p>
 
-# ngx-foresight
+# ngx-foresight - [🚀 Demo](https://akshykhade.github.io/ngx-foresight/)
 
 [foresightjs](https://foresightjs.com/) implementation for Angular. It provides router preloading strategy which automatically downloads the lazy-loaded module based on foresightjs prediction of user intent from mouse and keyboard.
 
