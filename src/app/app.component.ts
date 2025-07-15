@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterModule, RouterOutlet } from '@angular/router';
 import { ForesightManager } from 'js.foresight';
-import { ForesightDebugger } from 'js.foresight-devtools';
+import { ForesightDevtools } from 'js.foresight-devtools';
 import { ForesightjsDirective } from 'ngx-foresight';
 
 ForesightManager.initialize({
@@ -15,7 +15,7 @@ ForesightManager.initialize({
   scrollMargin: 150,
 });
 
-ForesightDebugger.initialize(ForesightManager.instance, {
+ForesightDevtools.initialize({
   showDebugger: true,
   isControlPanelDefaultMinimized: true, // optional setting which allows you to minimize the control panel on default
   showNameTags: true, // optional setting which shows the name of the element
@@ -30,6 +30,6 @@ ForesightDebugger.initialize(ForesightManager.instance, {
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = 'ng.foresightJS';
+  title = 'foresightJS preloading strategy For Angular';
   ngAfterViewInit() {}
 }

@@ -11,7 +11,9 @@
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
     "isolatedModules": true,
-    "paths": {},
+    "paths": {
+      "ngx-foresight-local": ["./dist/ngx-foresight"]
+    },
     "esModuleInterop": true,
     "sourceMap": true,
     "declaration": false,
