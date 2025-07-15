@@ -30,6 +30,5 @@ ForesightDevtools.initialize({
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = 'foresightJS preloading strategy For Angular';
   ngAfterViewInit() {}
 }
