@@ -4,7 +4,7 @@ import { ForesightManager } from 'js.foresight';
 import { PrefetchRegistry } from './prefetch-registry.service';
 
 @Directive({
-  selector: '[foresightjs]',
+  selector: '[foresightjs],[registerForesight]',
   standalone: true,
 })
 export class ForesightjsDirective {
@@ -13,12 +13,16 @@ export class ForesightjsDirective {
   preloader = inject(RouterPreloader);
   @Input() routerLink: string = '';
   @Input() href: string = '';
+  @Input('registerForesight') name: string | undefined = undefined;
+
+  private unregisterRef: () => void = () => {};
 
   constructor(private elementRef: ElementRef) {}
 
   ngOnInit() {
-    ForesightManager.instance.register({
+    const { unregister } = ForesightManager.instance.register({
       element: this.elementRef.nativeElement,
+      name: this.name,
       callback: () => {
         if (!this.routerLink && !this.href) {
           return;
@@ -28,5 +32,10 @@ export class ForesightjsDirective {
         this.preloader.preload().subscribe(() => void 0);
       },
     });
+    this.unregisterRef = unregister;
+  }
+
+  ngOnDestroy() {
+    this.unregisterRef();
   }
 }
